@@ -33,6 +33,8 @@ try:
     submit_button = browser.find_element(By.CSS_SELECTOR, "button.btn")
     submit_button.click()
 
+
+ 
 finally:
     # Даем время скопировать код
     time.sleep(30)
